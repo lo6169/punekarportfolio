@@ -1,0 +1,105 @@
+/* accent color - #009fff  */
+
+body
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #5B676D;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.topnav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav-right
+{
+    float: right;
+}
+
+.collapsible
+{
+    padding: 1%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    color: #333333;
+}
+
+.active, .collapsible:hover
+{
+    background-color: #dbd9d9;
+}
+
+.collapsible:after
+{
+    content: '+';
+    color: #333333;
+    float: right;
+    margin-left: 1%;
+}
+
+.active:after
+{
+    content: "-";
+}
+
+.content
+{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: .75em;
+    text-align: left;
+}
+
+.aboutme
+{
+    text-align: center;
+    width: 50%;
+    margin-left: 24%;
+    padding: 1%;
+    font-size: 1.75em;
+    color: white;
+}
+
+h2
+{
+    font-size: 2.5em;
+    text-align: center;
+    color: #009fff;
+    margin-bottom: 0;
+}
+
+.footer
+{
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer a
+{
+    color: white;
+}
